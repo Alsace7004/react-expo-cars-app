@@ -9,7 +9,7 @@ const slides = [
     {
         id:'2',
         title:'Ferrari',
-        description:"Ferrari S.p.A. is an Italian luxury sports car manufacturer based in Maranello, Italy. Founded by Enzo Ferrari in 1939 from the Alfa Romeo racing division as Auto Avio Costruzioni, the company built its first car in 1940, and produced its first Ferrari-badged car in 1947. Fiat S.p.A.",
+        description:"Ferrari S.p.A. est un constructeur automobile italien installé à Maranello en Italie, fondée par Enzo Ferrari en 1947. L'histoire de Ferrari est indissociable de celle de la Scuderia Ferrari, écurie automobile évoluant en Sport-prototypes tout comme en grand tourisme – et plus tard en Formule 1 – depuis 1929, avec laquelle le constructeur a connu ses plus grands succès.",
         image:require('./assets/images/car2.png')
     },
     {
