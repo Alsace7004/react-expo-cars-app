@@ -4,9 +4,9 @@ import { StyleSheet,View,Text,useWindowDimensions,Image } from "react-native";
 const OnboardingItem  = ({item})=>{
     const {width} = useWindowDimensions();
     return (
-        <View style={[styles.container,{width/*,borderColor:'red',borderWidth:2*/}]}>
+        <View style={[styles.container,{width,/*borderColor:'red',borderWidth:2*/}]}>
             <Image source={item.image} style={[styles.image,{width,resizeMode:'contain'}]} />
-            <View style={{flex:0.3/*,borderColor:'green',borderWidth:2*/}}>
+            <View style={{flex:0.4,/*borderColor:'green',borderWidth:2,*/ justifyContent:'center',}}>
                 <Text style={styles.title}>{item.title}</Text>
                 <Text style={styles.description}>{item.description}</Text>
             </View>
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
         backgroundColor:'#fff'
     },
     image:{
-        flex:0.7,
+        flex:0.6,
         justifyContent:'center'
     },
     title:{

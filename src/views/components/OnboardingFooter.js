@@ -5,7 +5,7 @@ import slides from "../../../slides";
 const OnboardingFooter  = ({currentSlideIndex,next,skip,navigation})=>{
     const {width, height} = useWindowDimensions();
     return (
-        <View style={{height:height*0.20,width,justifyContent:'space-between',marginTop:9,paddingHorizontal:20}}>
+        <View style={{height:height*0.20,width,justifyContent:'space-between',marginTop:0,paddingHorizontal:20}}>
             {/* slides indicator 92204638*/}
             <View style={{/*borderWidth:2,borderColor:'blue',*/flexDirection:'row',justifyContent:'center'}}>
                 {
