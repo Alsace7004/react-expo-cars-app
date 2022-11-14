@@ -5,8 +5,8 @@ const OnboardingItem  = ({item})=>{
     const {width} = useWindowDimensions();
     return (
         <View style={[styles.container,{width,/*borderColor:'red',borderWidth:2*/}]}>
-            <Image source={item.image} style={[styles.image,{width,resizeMode:'contain'}]} />
-            <View style={{flex:0.4,/*borderColor:'green',borderWidth:2,*/ justifyContent:'center',}}>
+            <Image source={item.image} style={[styles.image,{width,resizeMode:'contain',}]} />
+            <View style={{flex:0.4,/*borderColor:'green',borderWidth:2,*/  }}>
                 <Text style={styles.title}>{item.title}</Text>
                 <Text style={styles.description}>{item.description}</Text>
             </View>
@@ -28,7 +28,8 @@ const styles = StyleSheet.create({
         fontSize:24,
         fontWeight:'900',
         textTransform:'uppercase',
-        textAlign:'center'
+        textAlign:'center',
+        marginBottom:20
     },
     description:{
         textAlign:'center',
